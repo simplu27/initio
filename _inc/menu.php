@@ -1,6 +1,3 @@
-<?php
-// _inc/menu.php
-?>
 <ul>
 	<li><a href="/">Home</a></li>
 	<li><a href="/page1">Page 1</a></li>
