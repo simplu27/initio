@@ -13,3 +13,6 @@
 /* For IE 6/7 (trigger hasLayout) */
 .clearfix, 
 .cf {zoom:1;}
+
+/* Box sizing */
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
