@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title><?php 
-	if (isset($pageTitle) && isset($siteTitle)) {
-		 echo $pageTitle . " | " . $siteTitle;
-	} elseif (isset($siteTitle) && (!isset($pageTitle)) {
-		echo $siteTitle;
+	if (isset($pageTitle) && isset($siteName)) {
+		 echo $pageTitle . " | " . $siteName;
+	} elseif (isset($siteName) && (!isset($pageTitle)) {
+		echo $siteName;
 	} else {
 		echo "Page Title Here";
 	}
