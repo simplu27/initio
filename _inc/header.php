@@ -4,9 +4,11 @@
 <meta charset="UTF-8">
 <title><?php 
 	if (isset($pageTitle) && isset($siteName)) {
-		 echo $pageTitle . " | " . $siteName;
+		 echo $pageTitle . " :: " . $siteName;
 	} elseif (isset($siteName)) {
 		echo $siteName;
+	} elseif (isset($pageTitle)) {
+		echo $pageTitle;
 	} else {
 		echo "Page Title Here";
 	}
