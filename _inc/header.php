@@ -19,7 +19,8 @@ echo '<meta name="robots" content="noindex, nofollow">'."\n";
 <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : "No description"; ?>" />
 <meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : "No keywords here"; ?>" />
 <meta name="author" content="<?php echo isset($author) ? $author : "Author"; ?>" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> -->
+<?php include_once ('favicon.php'); ?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <!--[if IE]>
