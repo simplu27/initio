@@ -15,7 +15,7 @@ $siteName = 'Initio';
 // <li><a <!php activeClass('homePage'); !>href="/">Home</a></li>
 	function activeClass($currPage) {
 		global $pageId;
-		if isset($pageId) && ($pageId == $currPage){
+		if (isset($pageId) && ($pageId == $currPage)){
 			echo 'class="active-menu" ';
 		}
 	} // activeClass
