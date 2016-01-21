@@ -16,3 +16,14 @@
 
 /* Box sizing */
 *, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/*Basic stuff*/
+
+body {
+	color: #333;
+	padding: 20px 30px;
+}
+
+a.active-menu {
+	color: red;
+}

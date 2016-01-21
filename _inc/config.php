@@ -9,3 +9,13 @@ define('INC', ROOT."_inc/");
 //include_once (INC.'header.php');
 
 $siteName = 'Initio';
+
+
+// In meniu, adauga clasa "active-menu" in functie de pagina
+// <li><a <!php activeClass('homePage'); !>href="/">Home</a></li>
+	function activeClass($currPage) {
+		global $pageId;
+		if isset($pageId) && ($pageId == $currPage){
+			echo 'class="active-menu" ';
+		}
+	} // activeClass
