@@ -5,7 +5,7 @@
 <title><?php 
 	if (isset($pageTitle) && isset($siteName)) {
 		 echo $pageTitle . " | " . $siteName;
-	} elseif (isset($siteName) && (!isset($pageTitle)) {
+	} elseif (isset($siteName)) {
 		echo $siteName;
 	} else {
 		echo "Page Title Here";

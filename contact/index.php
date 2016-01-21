@@ -1,9 +1,9 @@
 <?php
-// index.php Home page
+// index.php contact
 include_once $_SERVER['DOCUMENT_ROOT'].'/_inc/config.php';
 
-$pageId = "homePage";
-$pageTitle = "Home Page";
+$pageId = "contactPage";
+$pageTitle = "Contact Page";
 $pageDescription = "Page Description";
 $pageKeywords = "keywords, here";
 
