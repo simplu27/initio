@@ -42,3 +42,4 @@ echo '<meta name="robots" content="noindex, nofollow">'."\n";
 		</nav>
 	</header>
 <!-- Header End -->
+<div id="content"><!-- Start page content -->

@@ -1,1 +1,5 @@
+# initio project
+# Februarie 2016
 
+# User-agent: *
+# Disallow: /404/

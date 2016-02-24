@@ -1,0 +1,61 @@
+
+# initio project
+# Februarie 2016
+
+====================================================
+
+Folder structure
+----------------
+index.php
+.htaccess
+info.txt
+robots.txt
+*	_asset
+*	_css
+		normalize.css
+		style.css
+*	_images
+*	_inc
+		.htaccess
+		config.php
+		favicon.php
+		footer.php
+		header.php
+		menu.php
+*	_js
+		jquery.js
+		script.js
+*	contact
+		index.php
+*	page1
+		index.php
+*	page2
+		index.php
+*	page3
+		index.php
+
+====================================================
+
+--------------------
+Basic page structure
+--------------------
+
+<?php
+// Include config file:
+include_once $_SERVER['DOCUMENT_ROOT'].'/_inc/config.php';
+
+// Per page variabiles:
+$pageId = "homePage";
+$pageTitle = "Home Page";
+$pageDescription = "Page Description";
+$pageKeywords = "keywords, here";
+
+// Include header; menu.php is in header.php
+include_once (INC.'header.php'); ?>
+
+	// {Place for content}
+
+// Include footer.php
+<?php include_once (INC.'footer.php'); ?>
+
+====================================================
