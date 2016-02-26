@@ -2,6 +2,8 @@
 # http://htaccesscheatsheet.com/#force-www
 # 2016
 
+ErrorDocument 404 /404.php
+
 # Force www with .htaccess
 
 # RewriteEngine on

@@ -13,6 +13,7 @@
 		echo "Page Title Here";
 	}
 ?></title>
+<?php robots_noindex(); ?>
 <?php if (isset($pageId) && $pageId == '404Page') {
 echo '<meta name="robots" content="noindex, nofollow">'."\n";
 } ?>

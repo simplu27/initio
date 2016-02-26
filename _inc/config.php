@@ -19,3 +19,19 @@ $siteName = 'Initio';
 			echo 'class="active-menu" ';
 		}
 	} // activeClass
+
+// Functie pentru inserare meta in head,
+// in cazul in care nu se doreste: no-index, no follow
+// Pentru paginile care nu necesita indexare, la variabilele paginii,
+// se adauga:
+// $robots = 'no';
+
+// Insereaza functia in head.php
+	function robots_noindex() {
+		if (isset($robots) && ($robots === 'no')) {
+			echo '<meta name="robots" content="noindex,nofollow">'."\n";
+		}
+		else {
+			// echo '<meta name="robots" content="index,follow">'."\n";
+		}
+	}
