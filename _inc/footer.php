@@ -4,14 +4,7 @@
 <footer id="footer">
 	This is the footer!
 	<div id="copyright">
-		Copyright &copy; <?php 
-		$start_year = "2015";
-		if (date('Y') == $start_year) {
-			echo $start_year;
-		} else {
-			echo $start_year . " - " . date('Y');
-		}
-		?> All rights reserved.
+		<p>Copyright &copy; <?php copyright(); ?> All rights reserved.</p>
 	</div><!-- copyright -->
 </footer>
 

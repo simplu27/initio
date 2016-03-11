@@ -31,10 +31,21 @@
 /*Basic stuff*/
 
 body {
-	color: #333;
+	color: #545454;
 	padding: 20px 30px;
 }
 
 a.active-menu {
 	color: red;
+}
+
+
+
+/* ================================================
+	FOOTER
+=================================================== */
+
+#copyright p {
+	opacity: .5;
+	font-size: 80%;
 }
